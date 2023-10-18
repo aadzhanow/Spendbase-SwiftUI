@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(TabBarIcons.iconHome)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Home")
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    HomeView()
 }

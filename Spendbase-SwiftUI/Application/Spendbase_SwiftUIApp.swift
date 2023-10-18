@@ -11,7 +11,7 @@ import SwiftUI
 struct Spendbase_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
